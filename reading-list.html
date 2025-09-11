@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Structured Representation Learning Tutorial</title>
+    <link rel="icon" type="image/png" href="files/favicon.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar is-transparent">
+        <div class="container">
+            <div class="navbar-end">
+                <div class="navbar-item">
+                    <a href="/" class="nav-link">Home</a>
+                </div>
+                <div class="navbar-item">
+                    <a href="/reading-list.html" class="nav-link">Reading List</a>
+                </div>
+                
+                <div class="navbar-item">
+                    <a href="files/srl4llm-tutorial.pdf" class="nav-link" target="_blank">Tutorial PDF</a>
+                </div>
+
+
+            </div>
+        </div>
+    </nav>
+
+     <section class="hero hero--no-flex">
+        <div class="container">
+            <h1 class="main-title has-text-centered">Referenced Papers in LLM Representation Learning</h1>
+        </div>
+
+        <div class="container" style="margin-top: 2rem;">
+            <div class="filter-buttons has-text-centered">
+                <button class="filter-button is-active" data-category="all">All Papers</button>
+                <button class="filter-button" data-category="causal">Causal Representation Learning</button>
+                <button class="filter-button" data-category="application">Understand and Control LLM </button>
+                <button class="filter-button" data-category="structured">Structured Learning and Transferability</button>
+            </div>
+
+            <div class="paper-list" id="paper-list" style="margin-top: 2rem;">
+                <!-- Papers will be loaded here dynamically -->
+            </div>
+        </div>
+    </section>
+
+    <div class="page-spacer"></div>
+
+    <footer class="footer">
+        <div class="content has-text-centered">
+            <p>
+                <strong>Structured Representation Learning for LLMs</strong> - AAAI 2026 Tutorial
+            </p>
+        </div>
+    </footer>
+
+    <script>
+        // Function to create a paper element
+        function createPaperElement(paper) {
+            const div = document.createElement('div');
+            div.className = 'paper-item box';
+            div.dataset.categories = paper.categories.join(' ');
+            div.style.display = 'block';
+
+            const tags = paper.categories.map(category => 
+                `<span class="tag is-${category}">${category.charAt(0).toUpperCase() + category.slice(1)}</span>`
+            ).join('');
+
+            const links = Object.entries(paper.links).map(([type, url]) => 
+                `<a href="${url}" class="paper-link" target="_blank">${type === 'paper' ? 'Paper' : 'Code'} →</a>`
+            ).join(' ');
+
+            div.innerHTML = `
+                <div class="paper-header">
+                    <div class="paper-title">
+                        <a href="${paper.links.paper}" target="_blank" style="color: inherit; text-decoration: none;">${paper.title}</a>
+                    </div>
+                    <div class="paper-meta">
+                        <span class="paper-authors">${paper.authors} (${paper.year})</span>
+                        <span class="paper-venue">${paper.venue}</span>
+                    </div>
+                </div>
+                <div class="paper-abstract">${paper.abstract}</div>
+                <div class="paper-tags">${tags}</div>
+                <div class="paper-links">${links}</div>
+            `;
+
+            return div;
+        }
+
+        // Function to load and display papers
+        async function loadPapers() {
+            try {
+                const response = await fetch('papers.json');
+                const data = await response.json();
+
+                // Sort papers by year (optional)
+                const sortedPapers = data.papers.sort((a, b) => a.year - b.year);
+
+                const list = document.getElementById('paper-list');
+                sortedPapers.forEach(paper => {
+                    list.appendChild(createPaperElement(paper));
+                });
+            } catch (error) {
+                console.error('Error loading papers:', error);
+            }
+        }
+
+        // Initialize filter buttons
+        function initializeFilters() {
+            const filterButtons = document.querySelectorAll('.filter-button');
+
+            filterButtons.forEach(button => {
+                button.addEventListener('click', () => {
+                    // Update active button
+                    filterButtons.forEach(btn => btn.classList.remove('is-active'));
+                    button.classList.add('is-active');
+
+                    const category = button.dataset.category;
+                    const paperItems = document.querySelectorAll('.paper-item');
+
+                    // Filter items
+                    paperItems.forEach(item => {
+                        if (category === 'all' || item.dataset.categories.includes(category)) {
+                            item.style.display = 'block';
+                        } else {
+                            item.style.display = 'none';
+                        }
+                    });
+                });
+            });
+        }
+
+        document.addEventListener('DOMContentLoaded', async () => {
+            await loadPapers();
+            initializeFilters();
+        });
+    </script>
+</body>
+</html>

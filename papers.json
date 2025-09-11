@@ -1,0 +1,55 @@
+{
+  "papers": [
+    {
+      "title": "Red Teaming Language Models with Language Models",
+      "authors": "Perez et al.",
+      "venue": "ICLR",
+      "year": 2022,
+      "month": "February",
+      "abstract": "Introduced the concept of using language models to automatically discover adversarial prompts, significantly advancing jailbreaking techniques.",
+      "categories": ["srtuctured"],
+      "links": {
+        "paper": "https://arxiv.org/abs/2202.03286",
+        "code": "https://github.com/anthropics/red-teaming"
+      }
+    },
+    {
+      "title": "Jailbroken: How Does LLM Safety Training Fail?",
+      "authors": "Wei et al.",
+      "venue": "NeurIPS",
+      "year": 2023,
+      "month": "July",
+      "abstract": "Introduced the concept of jailbroken language models, demonstrating how safety training can fail.",
+      "categories": ["application"],
+      "links": {
+        "paper": "https://arxiv.org/abs/2307.02483"
+      }
+    },
+    {
+      "title": "Do Anything Now: Characterizing and Evaluating In-The-Wild Jailbreak Prompts on LLMs",
+      "authors": "Shen et al.",
+      "venue": "ACM CCS",
+      "year": 2023,
+      "month": "August",
+      "abstract": "Characterized and evaluated in-the-wild jailbreak prompts on LLMs, providing insights into the effectiveness of jailbreak prompts.",
+      "categories": ["causal","application"],
+      "links": {
+        "paper": "https://arxiv.org/abs/2308.03825",
+        "code": "https://github.com/verazuo/jailbreak_llms"
+      }
+    },
+    {
+      "title": "Universal and Transferable Adversarial Attacks on Aligned Language Models",
+      "authors": "Zou et al.",
+      "venue": "arXiv",
+      "year": 2023,
+      "month": "July",
+      "abstract": "Introduced the concept of universal adversarial suffixes that could jailbreak multiple aligned language models simultaneously.",
+      "categories": ["causal", "srtuctured"],
+      "links": {
+        "paper": "https://arxiv.org/abs/2307.15043",
+        "code": "https://github.com/andyzoujm/universal-llm-attack"
+      }
+    }
+  ]
+} 
