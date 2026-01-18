@@ -20,9 +20,8 @@
                 </div>
                 
                 <div class="navbar-item">
-                    <a href="files/srl4llm-tutorial.pdf" class="nav-link" target="_blank">Tutorial PDF</a>
+                    <a href="files/AAAI26-RepLearning-updating.pdf" class="nav-link" target="_blank">Tutorial PDF</a>
                 </div>
-
 
             </div>
         </div>
@@ -36,9 +35,11 @@
         <div class="container" style="margin-top: 2rem;">
             <div class="filter-buttons has-text-centered">
                 <button class="filter-button is-active" data-category="all">All Papers</button>
-                <button class="filter-button" data-category="causal">Causal Representation Learning</button>
-                <button class="filter-button" data-category="application">Understand and Control LLM </button>
-                <button class="filter-button" data-category="structured">Structured Learning and Transferability</button>
+                <button class="filter-button" data-category="principle">Principles</button>
+                <button class="filter-button" data-category="reasoning">Reasoning</button>
+                <button class="filter-button" data-category="understanding">Understanding and Editing</button>
+                <button class="filter-button" data-category="refinement">Self-Refinement</button>
+                <!-- <button class="filter-button" data-category="structured">Structured Learning and Transferability</button> -->
             </div>
 
             <div class="paper-list" id="paper-list" style="margin-top: 2rem;">
@@ -94,7 +95,8 @@
         // Function to load and display papers
         async function loadPapers() {
             try {
-                const response = await fetch('papers.json');
+                // const response = await fetch('papers.json');
+                const response = await fetch('papers_srl26.json');
                 const data = await response.json();
 
                 // Sort papers by year (optional)

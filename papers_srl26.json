@@ -1,0 +1,576 @@
+{
+  "papers": [
+    {
+      "title": "Temporally Disentangled Representation Learning",
+      "authors": "Yao et al.",
+      "venue": "Neurips",
+      "year": 2022,
+      "month": "",
+      "abstract": "",
+      "categories": ["principle"],
+      "links": {
+        "paper": "https://arxiv.org/abs/2210.13647",
+        "code": ""
+      }
+    },
+    {
+      "title": "Temporally Disentangled Representation Learning under Unknown Nonstationarity",
+      "authors": "Song et al.",
+      "venue": "NeurIPS",
+      "year": 2023,
+      "month": "July",
+      "abstract": "",
+      "categories": ["principle"],
+      "links": {
+        "paper": "https://arxiv.org/abs/2310.18615"
+      }
+    },
+    {
+      "title": "CaRiNG: Learning Temporal Causal Representation under Non-Invertible Generation Process",
+      "authors": "Chen et al.",
+      "venue": "ICML",
+      "year": 2024,
+      "month": "August",
+      "abstract": "",
+      "categories": ["principle"],
+      "links": {
+        "paper": "https://arxiv.org/abs/2401.14535",
+        "code": ""
+      }
+    },
+    {
+      "title": "On the Identification of Temporal Causal Representation with Instantaneous Dependence",
+      "authors": "Li et al.",
+      "venue": "ICLR",
+      "year": 2025,
+      "month": "July",
+      "abstract": "Introduced the concept of universal adversarial suffixes that could jailbreak multiple aligned language models simultaneously.",
+      "categories": ["causal", "srtuctured"],
+      "links": {
+        "paper": "https://arxiv.org/abs/2405.15325",
+        "code": ""
+      }
+    },
+        {
+      "title": "LLM Interpretability with Identifiable Temporal-Instantaneous Representation",
+      "authors": "Song et al.",
+      "venue": "Neurips",
+      "year": 2025,
+      "month": "July",
+      "abstract": "",
+      "categories": ["principle"],
+      "links": {
+        "paper": "https://arxiv.org/abs/2509.23323",
+        "code": ""
+      }
+    },
+        {
+      "title": "Towards monosemanticity: Decomposing language models with dictionary learning.",
+      "authors": "Briken et al.",
+      "venue": "Anthropic Blog",
+      "year": 2023,
+      "month": "July",
+      "abstract": "",
+      "categories": ["understanding"],
+      "links": {
+        "paper": "https://transformer-circuits.pub/2023/monosemantic-features",
+        "code": ""
+      }
+    },
+        {
+      "title": "Reasoning Beyond Language: A Comprehensive Survey on Latent Chain-of-Thought Reasoning",
+      "authors": "Chen et al.",
+      "venue": "arxiv",
+      "year": 2025,
+      "month": "July",
+      "abstract": "",
+      "categories": ["reasoning"],
+      "links": {
+        "paper": "https://arxiv.org/abs/2505.16782",
+        "code": ""
+      }
+    },
+            {
+      "title": "The Geometry of Truth: Emergent Linear Structure in LLM Representations of True/False Datasets",
+      "authors": "Marks et al.",
+      "venue": "COLM",
+      "year": 2024,
+      "month": "July",
+      "abstract": "",
+      "categories": ["reasoning"],
+      "links": {
+        "paper": "https://arxiv.org/abs/2310.06824",
+        "code": ""
+      }
+    },
+            {
+      "title": "Training Large Language Models to Reason in a Continuous Latent Space",
+      "authors": "Hao et al.",
+      "venue": "COLM",
+      "year": 2025,
+      "month": "July",
+      "abstract": "",
+      "categories": ["reasoning"],
+      "links": {
+        "paper": "https://arxiv.org/abs/2412.06769",
+        "code": ""
+      }
+    },
+            {
+      "title": "Codi: Compressing chain-of-thought into continuous space via self-distillation",
+      "authors": "Shen et al.",
+      "venue": "EMNLP",
+      "year": 2025,
+      "month": "July",
+      "abstract": "",
+      "categories": ["reasoning"],
+      "links": {
+        "paper": "https://arxiv.org/abs/2502.21074",
+        "code": ""
+      }
+    },
+            {
+      "title": "SoftCoT: Soft Chain-of-Thought for Efficient Reasoning with LLMs",
+      "authors": "Xu et al.",
+      "venue": "ACL",
+      "year": 2025,
+      "month": "July",
+      "abstract": "",
+      "categories": ["reasoning"],
+      "links": {
+        "paper": "https://arxiv.org/abs/2502.12134",
+        "code": ""
+      }
+    },
+            {
+      "title": "Token Assorted: Mixing Latent and Text Tokens for Improved Language Model Reasoning",
+      "authors": "Su et al.",
+      "venue": "ICML",
+      "year": 2025,
+      "month": "July",
+      "abstract": "",
+      "categories": ["reasoning"],
+      "links": {
+        "paper": "https://arxiv.org/abs/2502.03275",
+        "code": ""
+      }
+    },
+            {
+      "title": "Soft Thinking: Unlocking the Reasoning Potential of LLMs in Continuous Concept Space",
+      "authors": "Zhang et al.",
+      "venue": "arxiv",
+      "year": 2025,
+      "month": "July",
+      "abstract": "",
+      "categories": ["reasoning"],
+      "links": {
+        "paper": "https://arxiv.org/abs/2505.15778",
+        "code": ""
+      }
+    },
+            {
+      "title": "SwiReasoning: Switch-Thinking in Latent and Explicit for Pareto-Superior Reasoning LLMs",
+      "authors": "shi et al.",
+      "venue": "arxiv",
+      "year": 2025,
+      "month": "July",
+      "abstract": "",
+      "categories": ["reasoning"],
+      "links": {
+        "paper": "https://arxiv.org/abs/2510.05069",
+        "code": ""
+      }
+    },
+            {
+      "title": "Parallel Continuous Chain-of-Thought with Jacobi Iteration.",
+      "authors": "Wu et al.",
+      "venue": "arxiv",
+      "year": 2025,
+      "month": "July",
+      "abstract": "",
+      "categories": ["reasoning"],
+      "links": {
+        "paper": "https://arxiv.org/abs/2506.18582",
+        "code": ""
+      }
+    },
+            {
+      "title": "Scaling up Test-Time Compute with Latent Reasoning: A Recurrent Depth Approach",
+      "authors": "Geiping et al.",
+      "venue": "arxiv",
+      "year": 2025,
+      "month": "July",
+      "abstract": "",
+      "categories": ["reasoning"],
+      "links": {
+        "paper": "https://arxiv.org/abs/2502.05171",
+        "code": ""
+      }
+    },
+            {
+      "title": "Pretraining Language Models to Ponder in Continuous Space",
+      "authors": "Zeng et al.",
+      "venue": "arxiv",
+      "year": 2025,
+      "month": "July",
+      "abstract": "",
+      "categories": ["reasoning"],
+      "links": {
+        "paper": "https://arxiv.org/abs/2505.20674",
+        "code": ""
+      }
+    },
+    {
+      "title": "Hierarchical Reasoning Model.",
+      "authors": "Wang et al.",
+      "venue": "arxiv",
+      "year": 2025,
+      "month": "July",
+      "abstract": "",
+      "categories": ["reasoning"],
+      "links": {
+        "paper": "https://arxiv.org/abs/2506.21734",
+        "code": ""
+      }
+    },
+        {
+      "title": "Scaling Latent Reasoning via Looped Language Models",
+      "authors": "Zhu et al.",
+      "venue": "arxiv",
+      "year": 2025,
+      "month": "July",
+      "abstract": "",
+      "categories": ["reasoning"],
+      "links": {
+        "paper": "https://arxiv.org/abs/2510.25741",
+        "code": ""
+      }
+    },
+        {
+      "title": "Are Your Reasoning Models Reasoning or Guessing? A Mechanistic Analysis of Hierarchical Reasoning Models",
+      "authors": "Ren et al.",
+      "venue": "arxiv",
+      "year": 2026,
+      "month": "July",
+      "abstract": "",
+      "categories": ["reasoning"],
+      "links": {
+        "paper": "https://arxiv.org/abs/2601.10679",
+        "code": ""
+      }
+    },
+        {
+      "title": "Selection, Reflection and Self-Refinement: Revisit Reasoning Tasks via a Causal Lens",
+      "authors": "Deng et al.",
+      "venue": "arxiv",
+      "year": 2025,
+      "month": "July",
+      "abstract": "",
+      "categories": ["reasoning"],
+      "links": {
+        "paper": "https://arxiv.org/abs/2510.08222",
+        "code": ""
+      }
+    },
+        {
+      "title": "Toy Models of Superposition",
+      "authors": "Anthropic et al.",
+      "venue": "Anthropic Blog",
+      "year": 2022,
+      "month": "July",
+      "abstract": "",
+      "categories": ["understanding"],
+      "links": {
+        "paper": "https://arxiv.org/abs/2209.10652",
+        "code": ""
+      }
+    },
+        {
+      "title": "Mechanistic Interpretability for AI Safety A Review",
+      "authors": "Bereska et al.",
+      "venue": "TMLR",
+      "year": 2024,
+      "month": "July",
+      "abstract": "",
+      "categories": ["understanding"],
+      "links": {
+        "paper": "https://arxiv.org/abs/2404.14082",
+        "code": ""
+      }
+    },
+        {
+      "title": "Sparse Autoencoders Find Highly Interpretable Features in Language Models",
+      "authors": "Cunningham et al.",
+      "venue": "ICLR",
+      "year": 2023,
+      "month": "July",
+      "abstract": "",
+      "categories": ["understanding"],
+      "links": {
+        "paper": "https://arxiv.org/abs/2309.08600",
+        "code": ""
+      }
+    },
+        {
+      "title": "Gemma Scope: Open Sparse Autoencoders Everywhere All At Once on Gemma 2",
+      "authors": "Lieberum1 et al.",
+      "venue": "arxiv",
+      "year": 2024,
+      "month": "July",
+      "abstract": "",
+      "categories": ["understanding"],
+      "links": {
+        "paper": "https://arxiv.org/pdf/2408.05147",
+        "code": ""
+      }
+    },
+        {
+      "title": "When Thinking Backfires: Mechanistic Insights Into Reasoning-Induced Misalignment",
+      "authors": "Yan et al.",
+      "venue": "Neurips - MI workshop",
+      "year": 2025,
+      "month": "July",
+      "abstract": "",
+      "categories": ["understanding"],
+      "links": {
+        "paper": "https://arxiv.org/abs/2509.00544",
+        "code": ""
+      }
+    },
+        {
+      "title": "Breaking Bad Tokens: Detoxification of LLMs Using Sparse Autoencoders",
+      "authors": "Goyal et al.",
+      "venue": "EMNLP",
+      "year": 2025,
+      "month": "July",
+      "abstract": "",
+      "categories": ["understanding"],
+      "links": {
+        "paper": "https://arxiv.org/abs/2505.14536",
+        "code": ""
+      }
+    },
+        {
+      "title": "AlphaEdit: Null-Space Constrained Knowledge Editing for Language Models",
+      "authors": "Fang et al.",
+      "venue": "ICLR",
+      "year": 2025,
+      "month": "July",
+      "abstract": "",
+      "categories": ["understanding"],
+      "links": {
+        "paper": "https://arxiv.org/abs/2410.02355",
+        "code": ""
+      }
+    },
+        {
+      "title": "Mitigating Overthinking in Large Reasoning Models via Manifold Steering",
+      "authors": "Huang et al.",
+      "venue": "Neurips",
+      "year": 2025,
+      "month": "July",
+      "abstract": "",
+      "categories": ["understanding"],
+      "links": {
+        "paper": "https://arxiv.org/abs/2505.22411",
+        "code": ""
+      }
+    },
+        {
+      "title": "Addressing Token Uniformity in Transformers via Singular Value Transformation",
+      "authors": "Yan et al.",
+      "venue": "arxiv",
+      "year": 2022,
+      "month": "July",
+      "abstract": "",
+      "categories": ["understanding"],
+      "links": {
+        "paper": "https://arxiv.org/abs/2208.11790",
+        "code": ""
+      }
+    },
+        {
+      "title": "Latent Space Chain-Of-Embedding Enables Output-Free Llm Self-Evaluation",
+      "authors": "Wang et al.",
+      "venue": "ICLR",
+      "year": 2025,
+      "month": "July",
+      "abstract": "",
+      "categories": ["refinement"],
+      "links": {
+        "paper": "https://arxiv.org/abs/2410.13640",
+        "code": ""
+      }
+    },
+        {
+      "title": "Stabilizing Policy Gradients for Sample-Efficient Reinforcement Learning in LLM Reasoning",
+      "authors": "Melo et al.",
+      "venue": "arxiv",
+      "year": 2025,
+      "month": "July",
+      "abstract": "",
+      "categories": ["refinement"],
+      "links": {
+        "paper": "https://arxiv.org/abs/2510.00819",
+        "code": ""
+      }
+    },
+        {
+      "title": "Hyper-Connections",
+      "authors": "Zhu et al.",
+      "venue": "arxiv",
+      "year": 2025,
+      "month": "July",
+      "abstract": "",
+      "categories": ["refinement"],
+      "links": {
+        "paper": "https://arxiv.org/abs/2409.19606",
+        "code": ""
+      }
+    },
+        {
+      "title": "Manifold-Constrained Hyper-Connections",
+      "authors": "Xie et al.",
+      "venue": "arxiv",
+      "year": 2025,
+      "month": "July",
+      "abstract": "",
+      "categories": ["refinement"],
+      "links": {
+        "paper": "https://arxiv.org/abs/2512.24880",
+        "code": ""
+      }
+    },
+        {
+      "title": "Toward Self-Improvement of LLMs via Imagination, Searching, and Criticizing",
+      "authors": "Tian et al.",
+      "venue": "Neurips",
+      "year": 2024,
+      "month": "July",
+      "abstract": "",
+      "categories": ["refinement"],
+      "links": {
+        "paper": "https://arxiv.org/abs/2404.12253",
+        "code": ""
+      }
+    },
+    {
+      "title": "Language Models Don't Always Say What They Think: Unfaithful Explanations in Chain-of-Thought Prompting",
+      "authors": "Turpin et al.",
+      "venue": "Neurips",
+      "year": 2023,
+      "month": "July",
+      "abstract": "",
+      "categories": ["refinement"],
+      "links": {
+        "paper": "https://arxiv.org/abs/2305.04388",
+        "code": ""
+      }
+    },
+            {
+      "title": "CTRLS: Chain-of-Thought Reasoning via Latent State-Transition",
+      "authors": "Wu et al.",
+      "venue": "arxiv",
+      "year": 2025,
+      "month": "July",
+      "abstract": "",
+      "categories": ["refinement"],
+      "links": {
+        "paper": "https://arxiv.org/abs/2507.08182",
+        "code": ""
+      }
+    },
+            {
+      "title": "On the Biology of a Large Language Model",
+      "authors": "Anthropic et al.",
+      "venue": "Anthropic Blog",
+      "year": 2025,
+      "month": "July",
+      "abstract": "",
+      "categories": ["refinement"],
+      "links": {
+        "paper": "https://transformer-circuits.pub/2025/attribution-graphs/biology.html",
+        "code": ""
+      }
+    },
+            {
+      "title": "Priors in time: Missing inductive biases for language model interpretability",
+      "authors": "Lubana et al.",
+      "venue": "arxiv",
+      "year": 2025,
+      "month": "July",
+      "abstract": "",
+      "categories": ["refinement"],
+      "links": {
+        "paper": "https://arxiv.org/abs/2511.01836",
+        "code": ""
+      }
+    },
+            {
+      "title": "Encourage or inhibit monosemanticity?  Revisit Monosemanticity from a Feature Decorrelation Perspective",
+      "authors": "Yan et al.",
+      "venue": "EMNLP",
+      "year": 2024,
+      "month": "July",
+      "abstract": "",
+      "categories": ["refinement"],
+      "links": {
+        "paper": "https://arxiv.org/abs/2406.17969",
+        "code": ""
+      }
+    },
+            {
+      "title": "STaR: Self-Taught Reasoner Bootstrapping Reasoning with Reasoning",
+      "authors": "Zelikman et al.",
+      "venue": "Neurips",
+      "year": 2021,
+      "month": "July",
+      "abstract": "",
+      "categories": ["refinement"],
+      "links": {
+        "paper": "https://arxiv.org/abs/2203.14465",
+        "code": ""
+      }
+    },
+            {
+      "title": "Soft Reasoning: Navigating Solution Spaces in Large Language Models through Controlled Embedding Exploration",
+      "authors": "zhu et al.",
+      "venue": "ICML",
+      "year": 2025,
+      "month": "July",
+      "abstract": "",
+      "categories": ["refinement"],
+      "links": {
+        "paper": "https://arxiv.org/abs/2505.24688",
+        "code": ""
+      }
+    },
+            {
+      "title": "NOVER: Incentive Training for Language Models via Verifier-Free Reinforcement Learning",
+      "authors": "Liu et al.",
+      "venue": "EMNLP",
+      "year": 2025,
+      "month": "July",
+      "abstract": "",
+      "categories": ["refinement"],
+      "links": {
+        "paper": "https://arxiv.org/abs/2505.16022",
+        "code": ""
+      }
+    },
+            {
+      "title": "The Entropy Mechanism of Reinforcement Learning for Reasoning Language Models",
+      "authors": "Cui et al.",
+      "venue": "arxiv",
+      "year": 2026,
+      "month": "July",
+      "abstract": "",
+      "categories": ["refinement"],
+      "links": {
+        "paper": "https://openreview.net/forum?id=vXoksdcfqC",
+        "code": ""
+      }
+    }
+
+  ]
+} 
