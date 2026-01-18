@@ -75,12 +75,12 @@
       ).join('');
 
       // Only keep links with non-empty URLs
-      const links = Object.entries(paper.links || {})
-        .filter(([_, url]) => url && String(url).trim() !== "")
-        .map(([type, url]) =>
-          `<a href="${url}" class="paper-link" target="_blank">${type === 'paper' ? 'Paper' : 'Code'} →</a>`
-        )
-        .join(' ');
+      // const links = Object.entries(paper.links || {})
+      //   .filter(([_, url]) => url && String(url).trim() !== "")
+      //   .map(([type, url]) =>
+      //     `<a href="${url}" class="paper-link" target="_blank">${type === 'paper' ? 'Paper' : 'Code'} →</a>`
+      //   )
+      //   .join(' ');
 
       const paperUrl = (paper.links && paper.links.paper && String(paper.links.paper).trim() !== "")
         ? paper.links.paper
@@ -100,14 +100,7 @@
           </div>
         </div>
 
-        ${paper.abstract && String(paper.abstract).trim() !== ""
-          ? `<div class="paper-abstract">${paper.abstract}</div>`
-          : ''
-        }
-
-        ${tags ? `<div class="paper-tags">${tags}</div>` : ''}
-
-        ${links ? `<div class="paper-links">${links}</div>` : ''}
+        
       `;
 
       return div;
